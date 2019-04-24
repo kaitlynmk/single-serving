@@ -1,5 +1,5 @@
 a:hover  {
-  color:#f9f7e3;
+  color:#fff;
   text-decoration: none;
 }
 
@@ -15,34 +15,54 @@ header {
   margin-left: 5em;
 }
 
-h1,
-.subheader {
+#title,
+.subheader,
+h1 {
   font-family: sans-serif;
 }
 
-h1 {
-  color: #f4bc9a;
+#title {
+  color: #e89858;
 }
 
 .subheader {
   color: #575a5b;
 }
 
+#how {
+  font-size: small;
+}
+
 /* body */
+
+#beginning {
+  padding-top: 2em;
+}
 
 main {
   background-color: #ffccad;
 }
 
 figcaption,
-p {
+p,
+.name{
   text-align: center;
 }
 
-#elon_musk {
-  padding-top: 2em;
-}
 
 #bottom {
   padding-bottom: 2em;
+}
+
+.explanation span {
+  display: inline-block;
+  background-color: #fff;
+  padding: 1em;
+}
+
+
+/* Ending */
+
+.back-to-top {
+  padding-left: 1em;
 }

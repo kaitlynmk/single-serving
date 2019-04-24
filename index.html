@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en" dir="ltr">
+<html lang="en" dir="ltr" id="back-to-top">
   <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
@@ -12,18 +12,20 @@
 <body>
 
 <header>
-<h1>Whose That?</h1>
+<h1 id="title">Whose That?</h1>
 <div class="subheader"> Guessing what celebrities look like in 20 minutes with no references </div>
 </header>
 
 <main>
 
+<p id="beginning"> Click on the photo to reveal what poorly rendered celebrity that is! </p>
 <!-- Elon Musk -->
 
 <details>
   <summary>
-      <figure id="elon_musk">
-        <img alt="My guess for Elon Musk" class="rounded mx-auto d-block" src="img/elon_musk.png" width="240">
+      <figure id="elon_musk" class="drawing">
+        <img alt="My guess for Elon Musk" class="rounded mx-auto d-block img-fluid"
+        src="img/elon_musk.png">
       </summary>
             <figcaption>
               <!-- <small class="credit">
@@ -32,9 +34,10 @@
             </figcaption>
       </figure>
 
+<h1 class="name"> Elon Musk! </h1>
 
     <figure>
-        <img alt="Actually Elon Musk" class="rounded mx-auto d-block" src="https://ichef.bbci.co.uk/news/660/cpsprodpb/7727/production/_103330503_musk3.jpg" width="300">
+        <img alt="Actually Elon Musk" class="rounded mx-auto d-block img-fluid" src="https://ichef.bbci.co.uk/news/660/cpsprodpb/7727/production/_103330503_musk3.jpg" width="300">
           <figcaption>
             <small class="credit">
               <a href="https://www.bbc.com/news/technology-45445554">Photo by Powerfuljre</a>
@@ -42,7 +45,7 @@
           </figcaption>
     </figure>
 
-<p> "You know, that guy from all the memes" </p>
+<p class="explanation"><span>"You know, that guy from all the memes"</span></p>
 
 </details>
 
@@ -50,8 +53,9 @@
 
 <details>
   <summary>
-        <figure>
-            <img alt="My guess for Tom Brady" class="rounded mx-auto d-block" src="img/tom_brady.png" width="240">
+        <figure class="drawing">
+            <img alt="My guess for Tom Brady" class="rounded mx-auto d-block img-fluid"
+            src="img/tom_brady.png">
           </summary>
               <figcaption>
                 <!-- <small class="credit">
@@ -60,8 +64,10 @@
               </figcaption>
         </figure>
 
+<h1 class="name"> Tom Brady! </h2>
+
       <figure>
-          <img alt="Actually Tom Brady" class="rounded mx-auto d-block" src="https://res-4.cloudinary.com/ybmedia/image/upload/c_crop,h_1034,w_1840,x_65,y_34/c_fill,f_auto,h_495,q_auto,w_880/v1/m/a/6/a60ebead334e1b4e9a3463e764eb55e7036e9b91/12237798.jpg" width="300">
+          <img alt="Actually Tom Brady" class="rounded mx-auto d-block img-fluid" src="https://res-4.cloudinary.com/ybmedia/image/upload/c_crop,h_1034,w_1840,x_65,y_34/c_fill,f_auto,h_495,q_auto,w_880/v1/m/a/6/a60ebead334e1b4e9a3463e764eb55e7036e9b91/12237798.jpg" width="300">
             <figcaption>
               <small class="credit">
                 <a href="https://www.yardbarker.com/nfl/articles/tom_brady_recruiting_retired_martellus_bennett_on_instagram/s1_8061_28640564">Photo by Kirby Lee</a>
@@ -69,15 +75,16 @@
             </figcaption>
       </figure>
 
-  <p> "Beef cake" </p>
+  <p class="explanation"><span> "Beef cake" </span></p>
 </details>
 
 <!-- Joni Mitchell -->
 
 <details>
   <summary>
-          <figure>
-              <img alt="My guess for Joni Mitchell" class="rounded mx-auto d-block" src="img/joni_mitchell.png" width="240">
+          <figure class="drawing">
+              <img alt="My guess for Joni Mitchell" class="rounded mx-auto d-block img-fluid"
+              src="img/joni_mitchell.png">
             </summary>
                 <figcaption>
                   <!-- <small class="credit">
@@ -86,8 +93,10 @@
                 </figcaption>
           </figure>
 
+<h1 class="name"> Joni Mitchell! </h1>
+
         <figure>
-            <img alt="Actually Joni Mitchell" class="rounded mx-auto d-block" src="https://ichef.bbci.co.uk/images/ic/960x540/p01bqjlz.jpg" width="300">
+            <img alt="Actually Joni Mitchell" class="rounded mx-auto d-block img-fluid" src="https://ichef.bbci.co.uk/images/ic/960x540/p01bqjlz.jpg" width="300">
               <figcaption>
                 <small class="credit">
                   <a href="https://www.bbc.co.uk/music/artists/a6de8ef9-b1a1-4756-97aa-481bbb8a4069">Photo by BBC</a>
@@ -95,15 +104,16 @@
               </figcaption>
         </figure>
 
-    <p> "Like Stevie Knicks but with botox" </p>
+    <p class="explanation"></span> "Like Stevie Knicks, but with botox" </span></p>
 </details>
 
 <!-- Jon Hamm -->
 
 <details>
   <summary>
-            <figure>
-              <img alt="My guess for Jon Hamm" class="rounded mx-auto d-block" src="img/jon_hamm.png" width="240">
+            <figure id="jon_hamm" class="drawing">
+              <img alt="My guess for Jon Hamm" class="rounded mx-auto d-block img-fluid"
+              src="img/jon_hamm.png">
             </summary>
                   <figcaption>
                     <!-- <small class="credit">
@@ -112,8 +122,10 @@
                   </figcaption>
             </figure>
 
+<h1 class="name"> Jon Hamm! </h1>
+
           <figure>
-              <img alt="Actually Jon Hamm" class="rounded mx-auto d-block" src="https://i.pinimg.com/originals/7f/98/81/7f98811b2f6d5935abfc2ba883634b10.jpg" width="300">
+              <img alt="Actually Jon Hamm" class="rounded mx-auto d-block img-fluid" src="https://i.pinimg.com/originals/7f/98/81/7f98811b2f6d5935abfc2ba883634b10.jpg" width="300">
                 <figcaption>
                   <small class="credit">
                     <a href="https://www.pinterest.com/pin/82894449371576458/?lp=true">Photo by Pinterest</a>
@@ -121,6 +133,22 @@
                 </figcaption>
           </figure>
 
-    <p id="bottom"> "My #1 celebrity crush" </p>
+    <p class="explanation" id="bottom"><span> "My #1 celebrity crush" </span></p>
 
   </details>
+
+  <section class="fine-print">
+
+      <div class="back-to-top">
+        <a href="#back-to-top" id="end">Back to top</a>
+      </div>
+
+      <footer id="contentinfo">
+        <p class="small-print">
+          <small> Kaitlyn Killion - See <a href="https://github.com/kaitlynmk">Github</a></small>
+      </footer>
+
+  </section>
+
+</main>
+</body>
